@@ -2,7 +2,7 @@ import unittest
 from . import setup_db
 
 class BaseTestCase(unittest.TestCase):
-    def setUp(self, app, config):
+    def setUp(self, app, conn_string, sql_file):
         """
         Refresh database.
 
