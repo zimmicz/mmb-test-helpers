@@ -1,7 +1,7 @@
 import setuptools
 
 setuptools.setup(name='mmb_test_helpers',
-      version='0.2.7',
+      version='0.2.8',
       description='mapmybook test helpers',
       url='http://github.com/zimmicz/map-my-book-test-helpers',
       author='Michal Zimmermann',
