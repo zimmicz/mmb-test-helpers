@@ -1,5 +1,4 @@
 import unittest
-from . import setup_db
 
 class BaseTestCase(unittest.TestCase):
     def setUp(self, app):
